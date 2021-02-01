@@ -21,18 +21,18 @@ SOURCES += \
     ffmpegutilsh.cpp \
     main.cpp \
     mainwindow.cpp \
-    video_form.cpp
+    work_form.cpp
 
 HEADERS += \
     about.h \
     ffmpegutilsh.h \
     mainwindow.h \
-    video_form.h
+    work_form.h
 
 FORMS += \
     about.ui \
     mainwindow.ui \
-    video_form.ui
+    work_form.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -3,7 +3,7 @@
 #include "ui_mainwindow.h"
 //子窗口头文件
 #include "about.h"
-#include "video_form.h"
+#include "work_form.h"
 //依赖头文件
 #include <QFileDialog>
 #include <QDesktopServices>
@@ -79,7 +79,7 @@ void MainWindow::on_about_triggered()
 
 void MainWindow::on_video_btn_clicked()
 {
-    video_form *sub_video = new video_form;
+    work_form *sub_video = new work_form;
     sub_video->out2src = this->out2src;
     sub_video->outpath = this->outpath;
     sub_video->show();
@@ -87,7 +87,7 @@ void MainWindow::on_video_btn_clicked()
 
 void MainWindow::on_audio_btn_clicked()
 {
-    video_form *sub_audio = new video_form;
+    work_form *sub_audio = new work_form;
     sub_audio->out2src = this->out2src;
     sub_audio->outpath = this->outpath;
     sub_audio->set_audio();

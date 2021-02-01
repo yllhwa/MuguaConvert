@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>video_form</class>
- <widget class="QWidget" name="video_form">
+ <class>work_form</class>
+ <widget class="QWidget" name="work_form">
   <property name="geometry">
    <rect>
     <x>0</x>
