@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../about.ico</file>
+        <file>../about.png</file>
+        <file>../audio_file.png</file>
+        <file>../logo.ico</file>
+        <file>../mp4.png</file>
+        <file>../output_dir.ico</file>
+        <file>../setting.ico</file>
+        <file>../video_file.png</file>
+    </qresource>
+</RCC>
