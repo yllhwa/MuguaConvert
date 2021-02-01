@@ -18,7 +18,3 @@
 ## 支持我们
 
 如果这个项目帮助到您，请 star⭐️ 我们！
-
-## 📝 License
-
-This project is [CC--BY--SA--4.0 License](https://github.com/yllhwa/HUST_CSE/blob/main/LICENSE) licensed.
