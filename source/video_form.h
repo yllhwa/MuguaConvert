@@ -19,8 +19,6 @@ class video_form : public QWidget
 
 public:
     explicit video_form(QWidget *parent = nullptr);
-    bool use_multithreading;
-    bool use_hardware;
     bool out2src;
     QString outpath;
     void convert();

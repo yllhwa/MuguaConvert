@@ -6,7 +6,7 @@ About::About(QWidget *parent) :
     ui(new Ui::About)
 {
     ui->setupUi(this);
-    this->setAttribute(Qt::WA_DeleteOnClose,true);
+    this->setAttribute(Qt::WA_DeleteOnClose,true);  //关闭时自动释放
     setFixedSize(this->width(), this->height());  //使用固定大小
 }
 

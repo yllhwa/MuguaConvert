@@ -12,7 +12,7 @@ video_form::video_form(QWidget *parent) :
     ui(new Ui::video_form)
 {
     ui->setupUi(this);
-    this->setAttribute(Qt::WA_DeleteOnClose,true);
+    this->setAttribute(Qt::WA_DeleteOnClose,true);  //关闭时自动释放
     QFileDialog *fileDialog = new QFileDialog(this);
     fileDialog->setWindowTitle(tr("打开文件"));
     //设置视图模式
